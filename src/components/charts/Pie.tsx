@@ -24,6 +24,8 @@ const PieChart: React.FC<IPieChartProps> = ({
     ...rest
 }) => {
     const commonProps = {
+        // Fix graph width/height
+        // activeOuterRadiusOffset: 2,
         colors: [
             '#A6CEE3',
             '#1F78B4',
@@ -38,8 +40,8 @@ const PieChart: React.FC<IPieChartProps> = ({
             '#FFFF99',
             '#B15928',
         ],
-        enableRadialLabels: false,
-        enableSliceLabels: false,
+        enableArcLabels: false,
+        enableArcLinkLabels: false,
         theme: {
             fontSize: 10,
             textColor: '#486F90',

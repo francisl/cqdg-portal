@@ -176,8 +176,8 @@ const Home = (): React.ReactElement => {
                                             'key',
                                             'doc_count'
                                         )}
-                                        enableRadialLabels={false}
-                                        enableSliceLabels={false}
+                                        enableArcLabels={false}
+                                        enableArcLinkLabels={false}
                                         legends={[
                                             { anchor: 'right', direction: 'column', itemHeight: 18, itemWidth: 50 },
                                         ]}
